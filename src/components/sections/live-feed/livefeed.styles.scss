@@ -1,0 +1,36 @@
+.live-feed {
+  height: 100%;
+
+  .live-feed__section {
+    border: 1px solid yellow;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    .live-feed__title {
+      font-size: 1.6rem;
+      text-align: left;
+    }
+  }
+}
+
+.live-feed__feeds {
+  padding: 10px;
+  height: 90%;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  margin-top: 20px;
+
+  .live-feed__feed {
+    margin: 20px;
+    border: 1px solid white;
+    height: 100px;
+    padding: 10px;
+  }
+}
+
+.live-feed__feeds::-webkit-scrollbar {
+  display: none;
+}
