@@ -5,9 +5,6 @@ import TypeWriter from "typewriter-effect";
 import Dashboard from "./components/sections/dashboard/DashboardContainer";
 import LiveFeed from "./components/sections/live-feed/LiveFeed";
 import Input from "./components/sections/input/InputContainer";
-
-import logo from "./assets/img/ey_logo.png";
-
 import "./App.css";
 
 const App = () => {
